@@ -19,9 +19,9 @@ Data is taken for Lucknow and other cities after it initial preprocessing applie
 Fog index,Fog Duration and Energy loss column get added and resampling occurs for 6 hr .
 
 ## Models
-Many Machine learning regression models applied on the dataset but only handful of them - ** Linear Regression, Gradient boosting, Adaboost, Random forest Regression and Ensemble technique"" performs well so they are considered for base model.
+Many Machine learning regression models applied on the dataset but only handful of them - **Linear Regression, Gradient boosting, Adaboost, Random forest Regression and Ensemble technique** performs well so they are considered for base model.
 
-During EDA one hidden point came in front that - ** Fog Index Value Depends on its previous values **. 
+During EDA one hidden point came in front that - **Fog Index Value Depends on its previous values**. 
 
 So, two Models proposed till now- 
 1) Model -1 : Having columns of previous fog index datasets .
