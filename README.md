@@ -23,7 +23,7 @@ Many Machine learning regression models applied on the dataset but only handful 
 
 During EDA one hidden point came in front that - **Fog Index Value Depends on its previous values**. 
 
-So, two Models proposed till now- 
+By, considering this above point two Models were proposed - 
 1) Model -1 : Having columns of previous fog index datasets .
 2) Model -2 : Having column of previous day data for which we are predicting .
 
