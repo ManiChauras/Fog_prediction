@@ -13,19 +13,19 @@ Fix Start and End date
 Get Data
 
 ## Initial Preprocessing
-Data is taken for Lucknow city and others , applied initial preprocessing includes - Normalisation, Resampling, Interpolation , stationarity and seasonality by the team members and cleaned data provided us to do further hyperparameter tunning 
+Data is taken for Lucknow and other cities after it initial preprocessing applied which includes - Normalisation, Resampling, Interpolation , stationarity and seasonality by the team members and cleaned data provided to us for further hyperparameter tunning 
 
 ## Preprocessing 
-Fog index, Duration and Energy loss column added , also data is resampled of 6 hour for long term fog prediction.
+Fog index,Fog Duration and Energy loss column get added , resampling occurs for 6 hr .
 
 ## Models
-Machine learning regression models applied but only handful of them - Linear Regression, Gradient boosting, Adaboost, Random forest Regression and Ensemble technique performs well so these models are get considered as a base model.
+Many Machine learning regression models applied on the dataset but only handful of them - ** Linear Regression, Gradient boosting, Adaboost, Random forest Regression and Ensemble technique"" performs well so they are considered for base model.
 
 During EDA one hidden point came in front that - ** Fog Index Value Depends on its previous values **. 
 
 So, two Models proposed till now- 
-1) Model -1 : Having columns of previous fog index dataset .
+1) Model -1 : Having columns of previous fog index datasets .
 2) Model -2 : Having column of previous day data for which we are predicting .
 
 ## Conclusion 
-Till now Model -1 performs well ,so it can be included with the base model and further hyperparameter tunning will be performed on the Machine learning models. And Model -2 need to be tested.
+Till now Model -1 performs well ,so it can be included with the base model and further hyperparameter tunning will be performed on the Machine learning models. Also Model -2 need to be tested further.
