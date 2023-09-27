@@ -13,10 +13,10 @@ Fix Start and End date
 Get Data
 
 ## Initial Preprocessing
-Data is taken for Lucknow and other cities after it initial preprocessing applied which includes - Normalisation, Resampling, Interpolation , stationarity and seasonality by the team members and cleaned data provided to us for further hyperparameter tunning 
+Data is taken for Lucknow and other cities after it initial preprocessing applied which includes - Normalisation, Resampling, Interpolation , stationarity and seasonality by the team members and cleaned data provided us for further hyperparameter tunning 
 
 ## Preprocessing 
-Fog index,Fog Duration and Energy loss column get added , resampling occurs for 6 hr .
+Fog index,Fog Duration and Energy loss column get added and resampling occurs for 6 hr .
 
 ## Models
 Many Machine learning regression models applied on the dataset but only handful of them - ** Linear Regression, Gradient boosting, Adaboost, Random forest Regression and Ensemble technique"" performs well so they are considered for base model.
