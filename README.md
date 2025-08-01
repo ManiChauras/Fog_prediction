@@ -1,5 +1,5 @@
 # Long-Term Fog Prediction (Hyperparameter tunning) 
-This repository contains hyperparameter tunning for long term fog index prediction 
+This repository contains hyperparameter tunning for long term fog index prediction
 
 ## Data
 Data Source: https://mesonet.agron.iastate.edu/request/download.phtml
