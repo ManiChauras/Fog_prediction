@@ -1,4 +1,4 @@
-# Long-Term Fog Prediction (Hyperparameter tunning) 
+# Long-Term Fog Prediction  
 This repository contains hyperparameter tunning for long term fog index prediction
 
 ## Data
